@@ -1,5 +1,8 @@
 # NoteIt - A Simple Notes App 📝
 
+## Lates Release
+You can download the latest release (v1.0) [here](https://github.com/DEIN_USERNAME/DEIN_REPO/releases/tag/v1.0)
+
 NoteIt is a minimalist and user-friendly notes app designed for creating, editing, deleting,
 and organizing notes. Built with Jetpack Compose and Kotlin, it leverages Hilt for dependency
 injection and Room for local storage.
