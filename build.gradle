@@ -1,0 +1,31 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        // Defines an external property for the Compose UI version.
+        compose_ui_version = '1.2.0-beta01'
+    }
+    repositories{
+        // Specifies repositories to fetch dependencies from.
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Adds the Android Gradle plugin for building Android apps.
+        classpath 'com.android.tools.build:gradle:7.4.2'
+        // Kotlin Gradle plugin for Kotlin support.
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.21'
+        // Hilt Gradle plugin for dependency injection.
+        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.40.1'
+    }
+}
+
+// Plugin block to apply specific Gradle plugins to sub-projects/modules.
+plugins {
+    // Plugin for building Android application modules.
+    id 'com.android.application' version '7.4.2' apply false
+    // Plugin for building Android library modules.
+    id 'com.android.library' version '7.4.2' apply false
+    // Kotlin plugin for Android development.
+    id 'org.jetbrains.kotlin.android' version '1.6.21' apply false
+
+}
