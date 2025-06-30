@@ -29,7 +29,7 @@ Room Database
 Retrofit
 Coroutines
 
-# How to use:
+# How to run in Android Studio:
 1. Open the project in Android Studio
 2. Sync dependencies
 3. Run the app:
